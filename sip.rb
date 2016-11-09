@@ -1,4 +1,4 @@
-class Sip4155 < Formula
+class Sip < Formula
   desc "Tool to create Python bindings for C and C++ libraries"
   homepage "https://www.riverbankcomputing.com/software/sip/intro"
   url "https://downloads.sourceforge.net/project/pyqt/sip/sip-4.15.5/sip-4.15.5.tar.gz"
