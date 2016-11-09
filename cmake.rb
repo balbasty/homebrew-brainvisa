@@ -16,7 +16,7 @@ class NoExpatFramework < Requirement
   end
 end
 
-class Cmake2812 < Formula
+class Cmake < Formula
   desc "Cross-platform make"
   homepage "http://www.cmake.org/"
   url "http://www.cmake.org/files/v2.8/cmake-2.8.12.tar.gz"
