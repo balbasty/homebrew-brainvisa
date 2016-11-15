@@ -1,8 +1,10 @@
 class Sip < Formula
   desc "Tool to create Python bindings for C and C++ libraries"
   homepage "https://www.riverbankcomputing.com/software/sip/intro"
-  url "https://downloads.sourceforge.net/project/pyqt/sip/sip-4.15.5/sip-4.15.5.tar.gz"
-  sha256 "9b11d87e7f382ce22bf013137f29462e75b56f5ea46f3fea6061bb20f967d559"
+  url "https://downloads.sourceforge.net/project/pyqt/sip/sip-4.13.3/sip-4.13.3.tar.gz"
+  sha256 "ec295f71ef339c5b98db5650865f2c6c1200c4085b7a3f33f284111e1f534ac1"
+  # url "https://downloads.sourceforge.net/project/pyqt/sip/sip-4.15.5/sip-4.15.5.tar.gz"
+  # sha256 "9b11d87e7f382ce22bf013137f29462e75b56f5ea46f3fea6061bb20f967d559"
 
   option "without-python", "Build without python2 support"
   depends_on :python => :recommended if MacOS.version <= :snow_leopard
